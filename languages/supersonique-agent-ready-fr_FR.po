@@ -1,0 +1,387 @@
+# French (France) translation for Supersonique – Agent Ready
+# Copyright (C) 2026 Supersonique Studio
+# This file is distributed under the same license as the plugin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Supersonique – Agent Ready 1.3.0\n"
+"Report-Msgid-Bugs-To: https://supersonique-studio.com\n"
+"POT-Creation-Date: 2026-05-25 12:00+0000\n"
+"PO-Revision-Date: 2026-05-25 12:00+0000\n"
+"Last-Translator: Supersonique Studio <hello@supersonique-studio.com>\n"
+"Language-Team: French <fr@li.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Manual\n"
+"X-Domain: supersonique-agent-ready\n"
+
+#. Default skill description for "search"
+#. translators: %s is the site name
+msgid "Search %s articles and pages by keyword."
+msgstr "Recherche dans les articles et pages de %s par mot-clé."
+
+#. Default skill description for "sitemap"
+#. translators: %s is the site name
+msgid "Full XML sitemap listing all public pages and posts of %s."
+msgstr "Sitemap XML complet listant toutes les pages et articles publics de %s."
+
+msgid "Search keywords"
+msgstr "Mots-clés de recherche"
+
+#. WebMCP tool: search description
+#. translators: %s is the site name
+msgid "Search %s content by keyword."
+msgstr "Recherche dans le contenu de %s par mot-clé."
+
+#. WebMCP tool: sitemap description
+#. translators: %s is the site name
+msgid "Get the full XML sitemap URL of %s."
+msgstr "Récupère l’URL du sitemap XML complet de %s."
+
+#. WebMCP tool: homepage description
+#. translators: 1: site name, 2: site description
+msgid "Get the homepage of %1$s. %2$s"
+msgstr "Récupère la page d’accueil de %1$s. %2$s"
+
+# ============================================================
+# Admin menu and page header
+# ============================================================
+
+msgid "Agent Ready"
+msgstr "Agent Ready"
+
+#. translators: %s is the site home URL
+msgid "Configure agent-readiness signals for %s"
+msgstr "Configure les signaux d’agent-readiness pour %s"
+
+msgid "View isitagentready.com score ↗"
+msgstr "Voir le score isitagentready.com ↗"
+
+msgid "Settings saved. Remember to <strong>purge your caches</strong> (Cloudflare Purge Everything + any WordPress caching plugin)."
+msgstr "Paramètres sauvegardés. Pense à <strong>vider les caches</strong> (Cloudflare Purge Everything + plugin de cache WordPress)."
+
+# ============================================================
+# Status table
+# ============================================================
+
+msgid "Endpoint status"
+msgstr "Statut des endpoints"
+
+msgid "Feature"
+msgstr "Fonctionnalité"
+
+msgid "Endpoint"
+msgstr "Endpoint"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "Active"
+msgstr "Actif"
+
+msgid "Disabled"
+msgstr "Désactivé"
+
+msgid "Link headers (RFC 8288)"
+msgstr "Link headers (RFC 8288)"
+
+msgid "HTTP headers + &lt;link&gt; in &lt;head&gt;"
+msgstr "Headers HTTP + balises &lt;link&gt; dans le &lt;head&gt;"
+
+msgid "AI bots robots.txt"
+msgstr "AI bots robots.txt"
+
+msgid "Content Signals"
+msgstr "Content Signals"
+
+msgid "MCP Server Card"
+msgstr "MCP Server Card"
+
+msgid "Agent Skills Index (v0.2.0)"
+msgstr "Agent Skills Index (v0.2.0)"
+
+msgid "API Catalog (RFC 9727)"
+msgstr "API Catalog (RFC 9727)"
+
+msgid "OAuth Protected Resource"
+msgstr "OAuth Protected Resource"
+
+msgid "OAuth/OIDC Discovery"
+msgstr "OAuth/OIDC Discovery"
+
+msgid "Web Bot Auth directory"
+msgstr "Annuaire Web Bot Auth"
+
+msgid "Markdown Negotiation"
+msgstr "Négociation Markdown"
+
+msgid "Accept: text/markdown → text/markdown"
+msgstr "Accept: text/markdown → text/markdown"
+
+msgid "WebMCP (JS in head)"
+msgstr "WebMCP (JS dans head)"
+
+msgid "Script injected in wp_head + retry"
+msgstr "Script injecté dans wp_head + retry"
+
+msgid "<strong>Cloudflare Cache:</strong> if the <code>Link:</code> headers do not appear on the homepage, add a rule in <strong>Cloudflare → Rules → Transform Rules → Modify Response Header</strong>: add <code>Link</code> = <code>&lt;/.well-known/api-catalog&gt;; rel=\"api-catalog\"</code>. The <code>&lt;link&gt;</code> tags injected into the <code>&lt;head&gt;</code> serve as an automatic fallback."
+msgstr "<strong>Cache Cloudflare :</strong> si les headers <code>Link:</code> n’apparaissent pas sur la page d’accueil, ajoute une règle dans <strong>Cloudflare → Rules → Transform Rules → Modify Response Header</strong> : ajouter <code>Link</code> = <code>&lt;/.well-known/api-catalog&gt;; rel=\"api-catalog\"</code>. Les balises <code>&lt;link&gt;</code> injectées dans le <code>&lt;head&gt;</code> servent de fallback automatique."
+
+# ============================================================
+# Serve mode box
+# ============================================================
+
+msgid "Serve mode"
+msgstr "Mode de service"
+
+msgid "Current mode:"
+msgstr "Mode actuel :"
+
+msgid "Static"
+msgstr "Static"
+
+msgid "Dynamic"
+msgstr "Dynamic"
+
+#. translators: %s is the absolute path to .well-known/
+msgid "real JSON files in %s, served by Apache (fast, cache-friendly)."
+msgstr "fichiers JSON réels dans %s, servis par Apache (rapide, cache-friendly)."
+
+msgid "WordPress rewrite rules + PHP on every request."
+msgstr "Rewrite rules WordPress + PHP à chaque requête."
+
+msgid "Disk write:"
+msgstr "Écriture sur disque :"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "is writable"
+msgstr "est writable"
+
+msgid "Not possible"
+msgstr "Impossible"
+
+#. translators: %s is the ABSPATH constant
+msgid "chmod 755 on %s or switch to Dynamic mode."
+msgstr "chmod 755 sur %s ou bascule en mode Dynamic."
+
+#. translators: %d is the number of generated files
+msgid "Generated files (%d)"
+msgstr "Fichiers générés (%d)"
+
+msgid "View ↗"
+msgstr "Voir ↗"
+
+# ============================================================
+# Section ⓪ Mode
+# ============================================================
+
+msgid "Static = Apache files / Dynamic = WP rewrites"
+msgstr "Static = fichiers Apache / Dynamic = rewrites WP"
+
+msgid "Mode"
+msgstr "Mode"
+
+msgid "Writes real JSON files in <code>.well-known/</code>. Served directly by Apache, zero PHP, Cloudflare-friendly. <em>Recommended.</em>"
+msgstr "Écrit de vrais fichiers JSON dans <code>.well-known/</code>. Servis directement par Apache, zéro PHP, Cloudflare-friendly. <em>Recommandé.</em>"
+
+msgid "WordPress rewrite rules + PHP. Only use this if static mode cannot write to <code>.well-known/</code> (permissions)."
+msgstr "Rewrite rules WordPress + PHP. À n’utiliser que si le mode static ne peut pas écrire dans <code>.well-known/</code> (permissions)."
+
+msgid "Files are regenerated automatically on every save. On plugin deactivation, static files are removed."
+msgstr "Les fichiers sont régénérés automatiquement à chaque sauvegarde. À la désactivation du plugin, les fichiers statiques sont supprimés."
+
+# ============================================================
+# Section ① Link headers
+# ============================================================
+
+msgid "Link Response Headers"
+msgstr "Link Response Headers"
+
+msgid "RFC 8288 — Discoverability 67→100"
+msgstr "RFC 8288 — Discoverability 67→100"
+
+msgid "Enable"
+msgstr "Activer"
+
+msgid "Send <code>Link:</code> HTTP headers and inject <code>&lt;link&gt;</code> tags into <code>&lt;head&gt;</code>"
+msgstr "Envoyer les headers HTTP <code>Link:</code> et injecter les balises <code>&lt;link&gt;</code> dans le <code>&lt;head&gt;</code>"
+
+msgid "API Catalog"
+msgstr "API Catalog"
+
+msgid "Agent Skills"
+msgstr "Agent Skills"
+
+msgid "Service Doc"
+msgstr "Service Doc"
+
+msgid "Custom headers"
+msgstr "Headers personnalisés"
+
+msgid "One header per line. Example: <code>&lt;/api&gt;; rel=\"service-doc\"</code>"
+msgstr "Un header par ligne. Exemple : <code>&lt;/api&gt;; rel=\"service-doc\"</code>"
+
+# ============================================================
+# Section ② robots.txt
+# ============================================================
+
+msgid "Bot Access Control 50→100"
+msgstr "Bot Access Control 50→100"
+
+msgid "AI bot rules"
+msgstr "Règles AI bots"
+
+msgid "Add <code>User-agent</code> directives for AI crawlers"
+msgstr "Ajouter des directives <code>User-agent</code> pour les crawlers IA"
+
+msgid "Allow / Block"
+msgstr "Autoriser / Bloquer"
+
+msgid "Allow (<code>Disallow:</code> empty)"
+msgstr "Autoriser (<code>Disallow:</code> vide)"
+
+msgid "Block (<code>Disallow: /</code>)"
+msgstr "Bloquer (<code>Disallow: /</code>)"
+
+msgid "Bot list"
+msgstr "Liste des bots"
+
+msgid "One bot per line."
+msgstr "Un bot par ligne."
+
+msgid "Add the <code>Content-Signal</code> directive to robots.txt"
+msgstr "Ajouter la directive <code>Content-Signal</code> dans robots.txt"
+
+msgid "Training AI models on the content"
+msgstr "Entraînement de modèles IA sur le contenu"
+
+msgid "Indexing in AI search engines"
+msgstr "Indexation dans les moteurs de recherche IA"
+
+msgid "Use as agent context (RAG…)"
+msgstr "Utilisation comme contexte d’agent (RAG…)"
+
+msgid "yes — allowed"
+msgstr "oui — autorisé"
+
+msgid "no — denied"
+msgstr "non — refusé"
+
+# ============================================================
+# Section ③ MCP Server Card
+# ============================================================
+
+msgid "SEP-2127 — API/MCP Discovery +1"
+msgstr "SEP-2127 — API/MCP Discovery +1"
+
+msgid "Serve <code>/.well-known/mcp/server-card.json</code>"
+msgstr "Servir <code>/.well-known/mcp/server-card.json</code>"
+
+msgid "Server name"
+msgstr "Nom du serveur"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "MCP Transport URL"
+msgstr "URL Transport MCP"
+
+#. translators: %s is the default MCP transport URL
+msgid "Leave empty to use %s by default."
+msgstr "Laisse vide pour utiliser %s par défaut."
+
+# ============================================================
+# Section ④ Agent Skills Index
+# ============================================================
+
+msgid "Agent Skills Index"
+msgstr "Agent Skills Index"
+
+msgid "RFC v0.2.0 — API/MCP Discovery +1"
+msgstr "RFC v0.2.0 — API/MCP Discovery +1"
+
+msgid "Serve <code>/.well-known/agent-skills/index.json</code>"
+msgstr "Servir <code>/.well-known/agent-skills/index.json</code>"
+
+msgid "Built-in skills: <strong>search</strong> and <strong>sitemap</strong> with a valid <code>inputSchema</code> (v0.2.0). Extensible via <code>add_filter('supup_agent_skills', ...)</code>"
+msgstr "Skills inclus : <strong>search</strong> et <strong>sitemap</strong> avec un <code>inputSchema</code> valide (v0.2.0). Extensible via <code>add_filter('supup_agent_skills', ...)</code>"
+
+# ============================================================
+# Section ④b Markdown Negotiation
+# ============================================================
+
+msgid "Content 0→100"
+msgstr "Content 0→100"
+
+msgid "Respond in <code>text/markdown</code> when the agent sends <code>Accept: text/markdown</code>"
+msgstr "Répondre en <code>text/markdown</code> quand l’agent envoie <code>Accept: text/markdown</code>"
+
+msgid "On-the-fly HTML → Markdown conversion (headings, links, lists, bold/italic). Adds <code>Vary: Accept</code>."
+msgstr "Conversion à la volée HTML → Markdown (titres, liens, listes, gras/italique). Ajoute <code>Vary: Accept</code>."
+
+# ============================================================
+# Section ④c Web Bot Auth
+# ============================================================
+
+msgid "Web Bot Auth"
+msgstr "Web Bot Auth"
+
+msgid "Cloudflare / HTTP Message Signatures"
+msgstr "Cloudflare / HTTP Message Signatures"
+
+msgid "Serve <code>/.well-known/http-message-signatures-directory</code> (empty directory)"
+msgstr "Servir <code>/.well-known/http-message-signatures-directory</code> (annuaire vide)"
+
+# ============================================================
+# Section ⑤ OAuth Protected Resource
+# ============================================================
+
+msgid "RFC 9728 — optional for brochure sites"
+msgstr "RFC 9728 — optionnel pour sites vitrines"
+
+msgid "Serve <code>/.well-known/oauth-protected-resource</code> (minimal endpoint)"
+msgstr "Servir <code>/.well-known/oauth-protected-resource</code> (endpoint minimaliste)"
+
+msgid "Enable only if your site exposes protected APIs. For a brochure site the endpoint is minimal but enough to pass the check."
+msgstr "Active uniquement si ton site expose des APIs protégées. Pour un site vitrine, cet endpoint est minimaliste mais suffit à passer le check."
+
+# ============================================================
+# Section ⑤b OAuth/OIDC Discovery
+# ============================================================
+
+msgid "RFC 8414 / OpenID Connect"
+msgstr "RFC 8414 / OpenID Connect"
+
+msgid "Serve <code>/.well-known/openid-configuration</code> and <code>/.well-known/oauth-authorization-server</code>"
+msgstr "Servir <code>/.well-known/openid-configuration</code> et <code>/.well-known/oauth-authorization-server</code>"
+
+msgid "Minimal endpoint to pass the check. The <code>oauth/authorize</code> and <code>oauth/token</code> URLs are not actually implemented — declarative only."
+msgstr "Endpoint minimaliste pour passer le check. Les URLs <code>oauth/authorize</code> et <code>oauth/token</code> ne sont pas réellement implémentées — déclaratif uniquement."
+
+# ============================================================
+# Section ⑥ WebMCP
+# ============================================================
+
+msgid "navigator.modelContext — API/MCP Discovery +1"
+msgstr "navigator.modelContext — API/MCP Discovery +1"
+
+msgid "Inject the WebMCP script into <code>wp_head</code>"
+msgstr "Injecter le script WebMCP dans <code>wp_head</code>"
+
+msgid "Registers the <strong>search</strong>, <strong>get_sitemap</strong> and <strong>get_homepage</strong> tools via <code>navigator.modelContext.provideContext()</code>. Extensible via <code>add_filter('supup_webmcp_tools', ...)</code>"
+msgstr "Enregistre les outils <strong>search</strong>, <strong>get_sitemap</strong> et <strong>get_homepage</strong> via <code>navigator.modelContext.provideContext()</code>. Extensible via <code>add_filter('supup_webmcp_tools', ...)</code>"
+
+# ============================================================
+# Buttons
+# ============================================================
+
+msgid "Save settings"
+msgstr "Sauvegarder les paramètres"
+
+msgid "Re-scan on isitagentready.com"
+msgstr "Re-scanner sur isitagentready.com"
