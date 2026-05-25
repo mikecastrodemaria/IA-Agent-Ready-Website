@@ -1,4 +1,4 @@
-# Supersonique – IA Agent Ready Website
+# IA Agent Ready Website
 
 > WordPress plugin that prepares your site for the era of AI agents — Link headers (RFC 8288), robots.txt AI bots & Content Signals, MCP Server Card, Agent Skills Index, OAuth/OIDC, Markdown Negotiation, WebMCP and more.
 

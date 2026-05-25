@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Supup IA Agent Ready Website
+ * Plugin Name:       IA Agent Ready Website
  * Plugin URI:        https://supersonique-studio.com
  * Description:       Improve your Agent-Readiness score: Link headers (RFC 8288), robots.txt AI bots & Content Signals, MCP Server Card, Agent Skills Index v0.2.0, OAuth/OIDC, Web Bot Auth, Markdown Negotiation, WebMCP.
  * Version:           1.3.0

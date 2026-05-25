@@ -1,4 +1,4 @@
-=== Supup IA Agent Ready Website ===
+=== IA Agent Ready Website ===
 Contributors: supersoniquestudio
 Tags: ai, agents, robots-txt, mcp, agent-skills, link-headers, cloudflare, llm, openai, claude, oauth, webmcp, markdown
 Requires at least: 6.0
