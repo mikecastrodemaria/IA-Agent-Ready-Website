@@ -12,7 +12,7 @@ Improve your Agent-Readiness score: Link headers, robots.txt for AI, MCP, Agent 
 
 == Description ==
 
-**Supersonique – Agent Ready** prepares your WordPress site for the era of AI agents. It implements the emerging standards that let agents (ChatGPT, Claude, Perplexity, Copilot…) discover, understand and interact with your content.
+**IA Agent Ready Website** prepares your WordPress site for the era of AI agents. It implements the emerging standards that let agents (ChatGPT, Claude, Perplexity, Copilot…) discover, understand and interact with your content.
 
 The plugin fixes, in a single install, most of the issues identified by [isitagentready.com](https://isitagentready.com), Cloudflare's Agent-Readiness audit tool.
 
@@ -165,7 +165,7 @@ add_filter( 'supup_webmcp_tools', function( $tools ) {
 = Automatic install =
 
 1. Go to **Plugins → Add New**
-2. Search for "Supersonique Agent Ready"
+2. Search for "IA Agent Ready Website"
 3. Click **Install Now**, then **Activate**
 
 = Manual install =

@@ -1,6 +1,6 @@
 <?php
 /**
- * Supersonique – Agent Ready
+ * IA Agent Ready Website
  * Full cleanup when the plugin is uninstalled.
  *
  * This file runs automatically when the user clicks "Delete"
